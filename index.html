@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <title>Resume</title>
+</head>
+<body>
+   
+    <header class="header" id="header">
+        <nav class="nav about-container">
+            <a href="#" class="nav-logo">Savenko</a>
+
+            <div class="nav-menu" id="nav-menu">
+                <ul class="nav-list">
+
+                    <li class="nav-item">
+                        <a href="#home" class="nav-link active-link">
+                            <i class='bx bx-home nav-icon'></i>Home
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a href="#profile" class="nav-link">
+                            <i class='bx bx-user-pin nav-icon'></i>Profile
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a href="#education" class="nav-link">
+                            <i class='bx bxs-graduation nav-icon'></i>Education
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a href="#skills" class="nav-link">
+                            <i class='bx bx-task nav-icon'></i>Skills
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a href="#experience" class="nav-link">
+                            <i class='bx bx-briefcase nav-icon' ></i>Expierience
+                        </a>
+                    </li>
+
+                </ul>
+            </div>
+
+            <div class="nav-toggle" id="nav-toggle">
+                <i class='bx bx-grid-alt' ></i>
+            </div>
+        </nav>
+
+    </header>
+
+    <main class="main about-container">
+        <div class="resume" id="download-cv">
+            <div class="resume-left">
+
+
+                <!-- HOME -->
+
+                <section class="home" id="home">
+                    <div class="home-container section about-grid">
+                        <div class="home-data about-grid">
+                            <img src="./IMG_9200.JPG" alt="resume-photo" class="home-img">
+                            <h1 class="home-title">Anastasiisa <b>Savenko</b></h1>
+                            <h3 class="home-profession">Front-end developer <i style="font-weight: 200;">Junior</i></h3>
+
+                            <!-- download resume -->
+
+                            <!-- <div>
+                                <a download="" href="LINKtoPDF" class="home-button-dwld">Download</a>
+                            </div> -->
+
+                        </div>
+
+                        <!-- info -->
+
+                        <div class="home-adress about-grid">
+
+                            <span class="home-information">
+                                <i class='bx bx-map home-icon'></i>Kyiv, Ukraine
+                            </span>
+                            <a class="home-information" href="tel:+380637204000">
+                                <i class='bx bx-phone-call home-icon' ></i>
+                                +38 063 720 40 00</a>
+
+                                <a class="home-information" href="mailto:savenko0097@gmail.com">
+                                    <i class='bx bx-envelope home-icon' ></i>
+                                    savenko0097@gmail.com</a>
+                        </div>
+
+                    </div>      
+                    
+                    <i class='bx bx-toggle-left change-theme' title="Theme" id="theme-button"></i>
+
+                    <i class='bx bxs-download generate-pdf' title="Generate PDF" id="resume-button" onclick="convertToPdf()"></i>
+
+                </section>
+
+
+                        <!-- social -->
+                        <!-- <section class="social section">
+
+                            <h2 class="section-title">SOCIAL</h2>
+
+                            <div class="social-container about-grid">
+
+                                <a href="LINKEDIN" target="_blank" class="social-link"><i class='bx bxl-linkedin-square social-icon'></i>
+                                @linktolinked
+                                </a>
+
+                                <a href="FB" target="_blank" class="social-link"><i class='bx bxl-facebook-circle social-icon'></i>
+                                    @linktoFB
+                                </a>
+
+                                <a href="INSTA" target="_blank" class="social-link"><i class='bx bxl-instagram social-icon'></i>
+                                        @linktoINSTA
+                                </a>
+                                
+                            </div>
+
+
+                        </section> -->
+
+                        
+
+                        <!-- EDUCATION -->
+
+                        <section class="education section" id="education">
+                            <h2 class="section-title">Education</h2>
+
+                            <div class="education-container about-grid">
+
+                                <div class="education-content">
+                                    <div class="education-time">
+                                        <span class="education-round"></span>
+                                        <span class="education-line"></span>
+                                    </div>
+
+                                    <div class="education-data about-grid">
+                                        <h3 class="education-title">Mathematics</h3>
+                                        <span class="education-stdudies"> <b>Taras Shevchenko National University of Kyiv</b> </span>
+                                        <span class="education-stdudies"><i>Faculty: Mechanics and Mathematics</i></span>
+                                        <span class="education-years">2015-2019</span>
+                                    </div>
+                                    
+                                </div>
+
+                                <div class="education-content">
+                                    <div class="education-time">
+                                        <span class="education-round"></span>
+                                        <span class="education-line"></span>
+                                    </div>
+
+                                    <div class="education-data about-grid">
+                                        <h3 class="education-title">Front-end Developer</h3>
+                                        <span class="education-stdudies"><b>DAN-IT</b></span>
+                                        <span class="education-stdudies"><i>HTML, CSS, JavaScript, jQuery, React.js, Redux, Node.js, Express.js</i></span>
+                                        <span class="education-years">2022-2023</span>
+                                    </div>
+                                    
+                                </div>
+
+                            </div>
+                        </section>
+
+
+                        <section class="skills section" id="skills">
+
+                            <h2 class="section-title">Skills</h2>
+
+                            <div class="skills-content about-grid">
+
+                                <ul class="skills-data">
+                                    
+                                    <li class="skills-name">
+                                        <span class="skills-circle"></span>HTML
+                                    </li>
+                                    
+                                    <li class="skills-name">
+                                        <span class="skills-circle"></span>CSS
+                                    </li>
+                                    
+                                    <li class="skills-name">
+                                        <span class="skills-circle"></span>JavaScript
+                                    </li>
+
+                                    <li class="skills-name">
+                                        <span class="skills-circle"></span>jQuery
+                                    </li>
+
+                                    <li class="skills-name">
+                                        <span class="skills-circle"></span>WordPress
+                                    </li>
+
+                                    <li class="skills-name">
+                                        <span class="skills-circle"></span>Figma
+                                    </li>
+                                </ul>
+
+                                <ul class="skills-data">
+                                    <li class="skills-name">
+                                        <b>*Currently studying</b> 
+                                    </li>
+                                    
+                                    <li class="skills-name">
+                                        <span class="skills-circle"></span>React.js
+                                    </li>
+                                    
+                                    <li class="skills-name">
+                                        <span class="skills-circle"></span>Redux
+                                    </li>
+                                    
+                                    <li class="skills-name">
+                                        <span class="skills-circle"></span>Node.js
+                                    </li>
+
+                                    <li class="skills-name">
+                                        <span class="skills-circle"></span>Express.js
+                                    </li>
+
+                                </ul>
+                            </div>
+
+                        </section>
+
+
+
+            
+            </div>
+
+            <div class="resume-right">
+
+                <!-- Profile -->
+
+
+                <section class="profile section" id="profile">
+                    <h2 class="section-title">Profile</h2>
+
+                    <p class="profile-description">
+                        I am a young and ambitious junior frontend developer. I am familiar with HTML, CSS, and am currently learning JavaScript, as well as jQuery, and am studying to create user interfaces using frameworks such as React and Angular. I enjoy working in a team and am eager to learn new technologies and development methods. Additionally, I have experience working with Git
+                    </p>
+
+                </section>
+
+                <!-- Experience -->
+                <section class="experience section" id="experience">
+
+                    <h2 class="section-title">Experience</h2>
+
+                    <div class="experience-container about-grid">
+                        <div class="experience-content">
+                            <div class="experience-time">
+                                <span class="experience-round"></span>
+                                <span class="experience-line"></span>
+                            </div>
+
+                            <div class="experience-data about-grid">
+                                <h3 class="experience-title">Improve website functionality and create a new page on WordPress</h3>
+                                <span class="experience-years">March 2023</span>
+                                <p class="experience-description">
+                                    Competitor analysis of similar courses and their landing pages <br>
+                                    Designing a Figma layout from scratch based on requirements <br>
+                                    Implementation of the design on the website<br>
+                                    Editing of various issues on the website, including mobile version<br>
+                                    Modification of navigation menu: creation of new sections, relocation of existing ones<br>
+                                    Personally created designs for social media advertising and added creative ads for psychology courses in collaboration with the Facebook library.<br>
+                                </p>
+                            </div>
+                        </div>
+
+
+                        <div class="experience-content">
+                            <div class="experience-time">
+                                <span class="experience-round"></span>
+                                <span class="experience-line"></span>
+                            </div>
+
+                            <div class="experience-data about-grid">
+                                <h3 class="experience-title">Create another landing page for Wordpress</h3>
+                                <span class="experience-years">April 2023</span>
+                                <p class="experience-description">
+                                    Creating a landing page based on a template<br>
+                                    Creating a template for the mobile version of the landing page and its implementation<br>
+                                </p>
+                            </div>
+                        </div>
+
+
+                        <div class="experience-content">
+                            <div class="experience-time">
+                                <span class="experience-round"></span>
+                                <span class="experience-line"></span>
+                            </div>
+
+                            <div class="experience-data about-grid">
+                                <h3 class="experience-title">Marketing Department Manager <br><span style="font-weight: 200;"><i>Previous experience</i></span></h3>
+                                <span class="experience-years">2019-2022</span>
+                                <p class="experience-description">
+                                    Developing and implementing marketing strategy<br>
+                                    Brand development<br>
+                                    Planning and executing advertising campaigns from concept to completion<br>
+                                    Influencer marketing on TikTok and Instagram<br>
+                                    Organizing video/photo shoots (script, casting, editing, retouching, etc.)<br>
+                                    Managing social media accounts: Instagram, Facebook, Instagram brand manager, Telegram channel, Instagram & Facebook international<br>
+                                    Participating in international projects<br>
+                                    Setting up targeted advertising on Facebook and Google<br>
+                                    Writing job descriptions for employees (photographers, videographers, targetologists, TikTok managers)<br>                                    
+                                </p>
+                            </div>
+                        </div>
+
+
+
+                    </div>
+                </section>
+
+
+                        <!-- Languages -->
+                <section class="languages section">
+                    <h2 class="section-title">languages</h2>
+
+                    <div class="languages-container">
+
+                        <ul class="languages-content about-grid">
+                            <li class="languages-name">
+                                <span class="languages-circle"></span>Ukrainian
+                            </li>
+
+                            <li class="languages-name">
+                                <span class="languages-circle"></span>English
+                            </li>
+
+                            <li class="languages-name">
+                                <span class="languages-circle"></span>Russian
+                            </li>
+
+                        </ul>
+                    </div>
+                </section>
+
+                <!-- Soft-skills -->
+
+                <section class="soft-skills section">
+                    <h2 class="section-title">soft-skills</h2>
+
+                    <div class="soft-skills-container about-grid">
+
+                        <div class="soft-skills-content">
+                            <i class='bx bx-brain soft-skills-icon'></i>
+                            <span class="soft-skills-name">Analytical thinking</span>
+                        </div>
+
+                        <div class="soft-skills-content">
+                            <i class='bx bx-paint soft-skills-icon'></i>
+                            <span class="soft-skills-name">Creativity and design thinking</span>
+                        </div>
+
+                        <div class="soft-skills-content">
+                            <i class='bx bx-network-chart soft-skills-icon'></i>
+                            <span class="soft-skills-name">Teamwork skills</span>
+                        </div>
+
+                        <div class="soft-skills-content">
+                            <i class='bx bx-network-chart soft-skills-icon' ></i>
+                            <span class="soft-skills-name">Project and task management</span>
+                        </div>
+
+                        <div class="soft-skills-content">
+                            <i class='bx bx-list-check soft-skills-icon' ></i>
+                            <span class="soft-skills-name">Adaptability to changes in project requirements</span>
+                        </div>
+
+                        <div class="soft-skills-content">
+                            <i class='bx bx-book-bookmark soft-skills-icon'></i>
+                            <span class="soft-skills-name">Ability to learn and apply new technologies</span>
+                        </div>
+
+                    </div>
+
+                </section>
+
+            </div>
+
+    </main>
+
+    <!-- scroll -->
+
+    <a href="#" class="scrolltop" id="scroll-top">
+        <i class='bx bx-upvote scrolltop-icon'></i>
+    </a>
+
+
+    <!-- SCRIPT js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.9.2/html2pdf.bundle.min.js"></script>
+    <script src="./script.js"></script>
+
+</body>
