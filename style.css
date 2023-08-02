@@ -85,10 +85,10 @@ body.scale-cv{
     display: none;
 }
 
-.scale-cv .about-container{
-    min-width: 595px;
+/* .scale-cv .about-container{
+    max-width: 595px;
 }
-
+ */
 .scale-cv .section{
     padding: 1.5rem 0.8rem 0;
 }
@@ -108,10 +108,13 @@ body.scale-cv{
 }
 
 .scale-cv .resume-right .section{
-    max-width: 600px;
+    min-width: 600px;
     padding: 0 2rem;
 }
 
+.scale-cv .resume-right .section p{
+    max-width: 580px;
+}
 
 .scale-cv .home-container{
     gap: 1.5rem;
