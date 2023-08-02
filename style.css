@@ -91,7 +91,6 @@ body.scale-cv{
  */
 .scale-cv .section{
     padding: 1.5rem 0.8rem;
-    max-width: 500px;
     margin: 0 auto;
 }
 
@@ -109,13 +108,20 @@ body.scale-cv{
     height: 90px;
 }
 
+.scale-cv .resume-right {
+    max-width: 540px;
+    padding: 0 5rem 0 0;
+}
+
 .scale-cv .resume-right .section{
-    min-width: 600px;
-    padding: 0 2rem;
+    min-width: 510px;
+    padding: 0 1rem;
+    margin: 0 auto;
 }
 
 .scale-cv .resume-right .section p{
-    max-width: 580px;
+    max-width: 500px;
+
 }
 
 .scale-cv .home-container{
