@@ -105,7 +105,7 @@ var opt = {
     filename:     'SavenkoCV.pdf',
     image:        { type: 'jpeg', quality: 0.98 },
     html2canvas:  { scale: 2 },
-    jsPDF:        { format: 'letter', orientation: 'A4' }
+    jsPDF:        { format: 'letter', orientation: 'a4' }
   };
   
   // New Promise-based usage:
