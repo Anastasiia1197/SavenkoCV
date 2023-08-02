@@ -90,7 +90,7 @@ body.scale-cv{
 }
 
 .scale-cv .section{
-    padding: 1.5rem 0 0.8rem;
+    padding: 1.5rem 5rem 0.8rem;
 }
 
 .scale-cv .section-title{
@@ -108,6 +108,7 @@ body.scale-cv{
 
 .scale-cv .resume-right{
     max-width: 800px;
+    padding: 0 5rem;
 }
 
 
