@@ -99,6 +99,7 @@ body.scale-cv{
 
 .scale-cv .resume-left{
     padding: 0 1rem;
+    max-width: 200px;
 }
 
 .scale-cv .home-img{
@@ -108,7 +109,7 @@ body.scale-cv{
 
 .scale-cv .resume-right .section{
     max-width: 600px;
-    padding: 0 3rem;
+    padding: 0 2rem;
 }
 
 
