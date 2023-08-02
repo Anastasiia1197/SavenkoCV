@@ -107,7 +107,7 @@ body.scale-cv{
 }
 
 .scale-cv .resume-right{
-    padding: 0 5rem
+    max-width: 800px;
 }
 
 
