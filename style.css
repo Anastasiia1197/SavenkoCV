@@ -106,6 +106,10 @@ body.scale-cv{
     height: 90px;
 }
 
+.scale-cv .resume-right{
+    padding: 0 5rem
+}
+
 
 .scale-cv .home-container{
     gap: 1.5rem;
